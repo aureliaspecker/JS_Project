@@ -1,0 +1,36 @@
+{
+  "name": "js_project",
+  "version": "1.0.0",
+  "engines": {
+    "node": "10"
+  },
+  "description": "JS project to save and return to users a set of cool places to visit in London",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node app.js",
+    "local": "./scripts/run-local.sh",
+    "dev": "./scripts/run-dev.sh",
+    "test": "echo \"Error: no test specified\"", 
+    "lint": "eslint src"
+  },
+  "repository": "git+https://github.com/aureliaspecker/JS_Project.git",
+  "author": "Aurelia Specker",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aureliaspecker/JS_Project/issues"
+  },
+  "homepage": "https://github.com/aureliaspecker/JS_Project#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "mongoose": "^5.4.9"
+  },
+  "devDependencies": {
+    "eslint": "^5.14.1",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-jsx-a11y": "^6.2.1",
+    "eslint-plugin-react": "^7.12.4",
+    "nodemon": "^1.18.9"
+  }
+}
