@@ -7,7 +7,7 @@
   "description": "JS project to save and return to users a set of cool places to visit in London",
   "main": "src/app.js",
   "scripts": {
-    "start": "node app.js",
+    "start": "node src/app.js",
     "local": "./scripts/run-local.sh",
     "dev": "./scripts/run-dev.sh",
     "test": "echo \"Error: no test specified\"", 
