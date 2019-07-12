@@ -42,4 +42,16 @@ router.post('/', (req, res) => {
   res.json(place);
 });
 
+// Unsure how to format the below properly
+router.delete('/:id', (req, res) => {
+  Place.findOne({ _id: req.params.id }, (err) => {
+    if (err) {
+      res.status(400);
+      res.json(err);
+    } else {
+      res.send('Delete successful');
+    }
+  });
+});
+
 module.exports = router;
