@@ -10,4 +10,4 @@ trap "onFinish" SIGINT SIGTERM
 
 source env.dev
 
-node app.js 
+node app.js

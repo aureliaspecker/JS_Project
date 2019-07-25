@@ -21,6 +21,7 @@ router.get('/:id', (req, res) => {
 });
 
 router.post('/', (req, res) => {
+  console.log(req);
   const place = new Place({
     name: req.body.name,
     type: req.body.type,
