@@ -10,4 +10,4 @@ trap "onFinish" SIGINT SIGTERM
 
 source env.local
 
-mongod & (sleep 5 && nodemon ./src/app.js)
+mongod --dbpath ./data & (sleep 5 && nodemon ./src/app.js)
